@@ -1,13 +1,14 @@
+import Header from "./components/header"
+import Formulario from "./components/Formulario"
+import ListadoPacientes from "./components/ListadoPacientes"
 function App() {
 
 
   return (
-    <div>
-
-    <div className="App">
-      <h1>{'Hola mundo'.toUpperCase()}</h1>
-      <p>Holaa</p>
-    </div>
+    <div className="container mt-5">
+      <Header/>
+      <Formulario/>
+      <ListadoPacientes/>
     </div>
 
   )
